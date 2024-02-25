@@ -1,5 +1,5 @@
 MIN_PASSWORD_LENGTH = 8
-def main():
+def get password():
     password = get_password()
     print("Password accepted! Printing asterisks:")
     print_asterisks(password)
@@ -15,4 +15,4 @@ def print_asterisks(password):
     print("*" * len(password))
 
 if __name__ == "__main__":
-    main()
+    get password()
