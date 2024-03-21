@@ -1,4 +1,3 @@
-# used_cars.py
 
 from car import Car
 
